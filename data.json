@@ -1,6 +1,18 @@
 {
-  "objective":
+  "career":
   {
-    "info":"with the full job satisfaction and professionacy in know aspects"
-  }
+    "info":"with the full job satisfaction and professioancy in know aspects"
+  },
+  "education":[
+    {
+      "degree":"SSC",
+      "school":"keshava reddy school",
+      "data":["2013","9.0"]
+    },
+      {
+        "degree":"inter",
+        "college":"sri chaitanya jr college",
+        "data":["2015","8.0"]
+      }
+]
 }

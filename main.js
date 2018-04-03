@@ -1,15 +1,31 @@
-function loadJSON(file,callback){
+function loadJSON(file,callback) {
   var xhr=new XMLHttpRequest();
-  xhr.overrideMimeType("appilication/json");
+  xhr.overrideMimeType("application/json");
   xhr.open("GET",file,true);
   xhr.onreadystatechange=function() {
-  if(xhr.readyState ===4 && xhr.status== "200"){
-    callback(xhr.responseText);
-  }
-};
+    if(xhr.readyState ===4 && xhr.status =="200"){
+      callback(xhr.responseText);
+    }
+  };
   xhr.send();
 }
-loadJSON("data.json",function(text){
+
+loadJSON("data.json",function(text) {
   let data=JSON.parse(text);
-  console.log(data);
+  console.log(data.career.info);
+  career(data.career);
 })
+
+var right= document.querySelector(".content");
+function career(car){
+  console.log(car.info);
+  var h3=document.createElement("h3");
+  h3.textContent="Career Objective";
+  right.appendChild(h3);
+  var hr=document.createElement("hr");
+  right.appendChild(hr);
+  var p=document.createElement("p");
+  p.textContent=car.info;
+  right.appendChild(p);
+  var
+}
