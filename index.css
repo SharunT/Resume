@@ -33,3 +33,55 @@ img{
 h2{
   color:#fff;
 }
+@media only screen and (min-width:320px)and (max-width:480px){
+  .flex-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .profile{
+    width: auto;
+  }
+  .justify-content{
+    width: auto;
+  }
+}
+@media only screen and (min-width:525px)and (max-width:1024px){
+  .flex-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .profile{
+    width: auto;
+  }
+  .justify-content{
+    width: auto;
+  }
+}
+@media only screen and (min-width:0px)and (max-width:525px){
+  .flex-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .profile{
+    width: auto;
+  }
+  .justify-content{
+    width: auto;
+  }
+}
+@media only screen and (min-width:720px)and (max-width:1024px){
+  .flex-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .profile{
+    width: auto;
+  }
+  .justify-content{
+    width: auto;
+  }
+}
