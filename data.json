@@ -1,18 +1,36 @@
 {
   "career":
   {
-    "info":"with the full job satisfaction and professioancy in know aspects"
+    "info":"With the full job satisfaction and professioancy in know aspects"
   },
   "education":[
     {
-      "degree":"SSC",
-      "school":"keshava reddy school",
-      "data":["2013","9.0"]
+      "Degree":"SSC",
+      "Institution":"Keshava reddy school",
+      "Year of passing&CGPA":["2013","9.0"]
     },
       {
-        "degree":"inter",
-        "college":"sri chaitanya jr college",
-        "data":["2015","8.0"]
+        "Degree":"Inter",
+        "Institution":"Sri chaitanya jr college",
+        "Year of passing&CGPA":["2015","8.0"]
       }
+],
+"skills":[
+  {
+    "name":"Operating System",
+    "info":["linux","windows"]
+    },
+    {
+      "name":"Languages",
+      "info":["c","java","python"]
+      },
+      {
+          "name":"Database",
+          "info":["mySQL","Oracle"]
+        },
+        {
+          "name":"Web Technologies",
+          "info":["HTML","CSS","javascript"]
+        }
 ]
 }
